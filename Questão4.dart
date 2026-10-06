@@ -112,9 +112,9 @@ void main() {
     }
 
     final media = (nota1 + nota2 + nota3) / 3;
-    final aprovado = media >= 6 && faltas <= 10;
+    final aprovado = media >= 7 && faltas <= 18;
 
-    totalAlunos++;
+    totalAlunos++; 
     somaMediasTurma += media;
 
     if (sexo == 'F') {
